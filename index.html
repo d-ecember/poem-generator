@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width>, initial-scale=1.0">
+    <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
     <link rel="stylesheet" href="src/style.css" />
     <title>AI Poem Generator</title>
 </head>
@@ -11,7 +12,7 @@
     <div class="container">
     <h1>Welcome to the AI Poem Generator</h1>
     <main>
-        <form action="">
+        <form id="poem-generator-form">
             <input type="text" placeholder="Enter the topic of the Poem"
             autofocus
             required
@@ -19,14 +20,7 @@
             class="instruction"/>
         <input type="submit" class="submit-button" />
         </form>
-        <div class="poem">
-            Dieser Monat ist ein Kuß,
-            <br>
-den der Himmel gibt der Erde,
-<br>
-Daß sie jetz und eine Braut,
-<br>
-künftig eine Mutter werde.
+        <div class="poem" id="poem">
 
         </div>
     </main>
