@@ -1,6 +1,6 @@
 body {
   background-color: #ffd3b6;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-family: "Montserrat", sans-serif;
 }
 h1 {
   text-align: center;
@@ -10,7 +10,7 @@ h1 {
   color: black;
 }
 a {
-  color: #a8e6cf;
+  color: #ffaaa5;
 }
 .container {
   margin: 120px auto;
@@ -32,7 +32,7 @@ form {
 .instruction {
   padding: 16px;
   border: 1px, solid, rgb(39, 33, 66, 0.5);
-  width: 80px;
+  width: 80%;
   font-size: 16px;
   border-radius: 50px;
   line-height: 20px;
@@ -51,8 +51,8 @@ form {
   background: #ffd3b6;
   font-size: 16px;
   padding: 20px;
-  line-height: 2px;
-  border-left: 3px, solid, #a8e6cf;
+  line-height: 35px;
+  border-left: 3px, solid, #ffaaa5;
   box-shadow: 0px, 20px, 60px, rgba(65, 50, 100, 0.08);
 }
 footer {

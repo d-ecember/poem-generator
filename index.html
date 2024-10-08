@@ -8,15 +8,18 @@
     <title>AI Poem Generator</title>
 </head>
 <body>
+    <div class="container">
     <h1>Welcome to the AI Poem Generator</h1>
     <main>
         <form action="">
             <input type="text" placeholder="Enter the topic of the Poem"
             autofocus
-            required>
-        <input type="submit" />
+            required
+            autocomplete="off"
+            class="instruction"/>
+        <input type="submit" class="submit-button" />
         </form>
-        <div>
+        <div class="poem">
             Dieser Monat ist ein Kuß,
             <br>
 den der Himmel gibt der Erde,
@@ -27,10 +30,13 @@ künftig eine Mutter werde.
 
         </div>
     </main>
-    <footer>This was code by <a href="https://github.com/d-ecember"></a> Emily Hildebrand an is <a href="https://github.com/d-ecember/poem-generator">
-        open-soured on GitHub</a> 
-        <a href="">and is hoosted on Netlify</a>
+    <footer>This was code by <a href="https://github.com/d-ecember"></a> Emily Hildebrand an is open-soured on <a href="https://github.com/d-ecember/poem-generator"> 
+      GitHub</a> and is hoosted on
+        <a href=""> Netlify</a>
+    </div>
     </footer></footer>
+    
+    </body>
    <script src="src/index.js"></script> 
 </body>
 </html>
