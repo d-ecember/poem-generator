@@ -1,5 +1,5 @@
 body {
-  background-color: #ffaaa5;
+  background-color: #ffd3b6;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 h1 {
@@ -7,7 +7,7 @@ h1 {
   font-weight: 800;
   font-size: 36px;
   line-height: 1.5;
-  color: #685454;
+  color: black;
 }
 a {
   color: #a8e6cf;
@@ -23,7 +23,7 @@ header {
 
 form {
   padding: 30px;
-  background-color: #ffd3b6;
+  background-color: #ffaaa5;
   border-radius: 10px;
   display: flex;
   margin-bottom: 30px;
