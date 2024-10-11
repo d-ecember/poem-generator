@@ -25,7 +25,10 @@ function generatePoem(event) {
         axios.get(apiUrl).then(dispalyPoem); 
 
    
-    
+//
+    let poemElement = document.querySelector("#poem"); 
+    poemElement.classList.remove("hidden"); 
+    poemElement.innerHTML = `<div class="generating">⏳Genrating German poem about ${instructionInput.value}</div>`; 
     
     
 }
