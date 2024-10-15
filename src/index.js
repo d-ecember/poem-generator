@@ -16,7 +16,7 @@ function generatePoem(event) {
   let apiKey = "c346o99849899025a5ea673a4f03tb46";
   let prompt = `Generate a German poem about ${instructionsInput.value}`;
   let context =
-    "You are a romantic expert and love to write short poems. Your mission is to generate a 4 line poem in basic HTML and separate each line with a <br />. Avoid adding ``` html at the beginning and false of the answer. Make sure to follow the user instructions. Do not include a title to the poem. There should be no 'false' at the end of the poem.";
+    "You are a romantic expert and love to write short poems. Your mission is to generate a 4 line poem in basic HTML and separate each line with a <br />. Avoid adding html at the beginning and no markdown in the end. Make sure to follow the user instructions. Do not include a title to the poem.";
   let apiURL = `https://api.shecodes.io/ai/v1/generate?prompt=${prompt}&context=${context}&key=${apiKey}`;
 
   // Show loading message
