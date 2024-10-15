@@ -13,17 +13,22 @@
     <div class="container">
     <h1>Welcome to the AI Poem Generator</h1>
     <main>
+        <div class ="form-container">
         <form id="poem-generator-form">
-            <input type="text" placeholder="Enter the topic of the Poem"
+            <input 
+            type="text" 
+            placeholder="Enter the topic of the Poem"
             autofocus
             required
             autocomplete="off"
-            class="instruction"/>
+            class="instruction"
+            id="user-instruktions"
+            />
         <input type="submit" class="submit-button" />
         </form>
-        <div class="poem" id="poem">
-
-        </div>
+        <div class="hint">i.e: Flower, Paris or Cheese</div>
+    </div>
+        <div class="poem hidden"  id="poem"></div>
     </main>
     <footer>This was code by <a href="https://github.com/d-ecember"></a> Emily Hildebrand an is open-soured on <a href="https://github.com/d-ecember/poem-generator"> 
       GitHub</a> and is hoosted on
