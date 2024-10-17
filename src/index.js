@@ -4,7 +4,7 @@ function displayPoem(response) {
     strings: response.data.answer,
     autoStart: true,
     delay: 1,
-    cursor: false,
+    cursor: "",
   });
 }
 
